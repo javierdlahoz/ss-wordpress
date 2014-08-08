@@ -1,0 +1,3 @@
+add_action("wp_authenticate", "check_credentials");
+add_action('after_setup_theme', 'set_up_ss_integration');
+add_shortcode('ss_balance_view', 'get_balance_view');
